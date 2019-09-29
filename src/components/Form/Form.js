@@ -69,6 +69,7 @@ const Form = ({ handleAddItem }) => {
               data-testid="form-submit"
               className="btn btn-primary"
               name="Add"
+              disabled={!item.title || !item.value || !item.dueDate}
               aria-label="Add todo item">
               <FontAwesomeIcon icon={faPlus} />
                <span>Add</span>

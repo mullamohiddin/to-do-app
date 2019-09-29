@@ -18,7 +18,6 @@ const Header = ({ className }) => (
         <span className="header__span">Todo App</span>
       <nav className="navbar">  
   <a class="active" href="#home">Home</a>
-  <a href="#news">News</a>
  <a href="#contact">Contact</a>
   <a href="#about">About</a>
        
